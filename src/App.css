@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #80bfff;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.currency-convertor {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px 20px;
+  width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 0;
+  color: #ccccff;
+  border-bottom: 2px dashed #ccc;
+  border-top: 2px dashed #ccc;
+  text-align: center;
+}
+
+.box {
+  width: 100%;
+  height: 200px;
+  background-image: url("./assets/currency.png");
+  background-size: 50%;
+  background-position: center;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+.input-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #8585ad;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+
+}
+
+input:focus , select:focus{
+  border: 1px solid #3498db;
+}
+
+.result {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: #3498db;
+  padding: 10px;
+  border: 2px dashed #ccc;
+  
+} 
